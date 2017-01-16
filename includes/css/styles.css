@@ -1,0 +1,242 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#features {
+   text-align: center;
+}
+
+#features img {
+   margin: 0 0 20px;
+}
+footer {
+   background: #333;
+   color: #eee;
+   font-size: 11px;
+   padding: 20px;
+}
+#imageAdjust img{
+   width: 108%;
+}
+.imagesize{
+   width: 37%;
+}
+#moreCourses{
+   margin-bottom: 1%;
+}
+
+#map{
+   width: 100%;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   body {
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+}
+
+ul.unstyled {
+   list-style: none;
+   padding: 0;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   .navbar-brand{
+      padding: 0;
+      margin-left: 13px;
+      margin: 10px;
+      margin-left: 0px;
+   }
+   .navbar-brand img{
+      width: 56px;
+      height: 56px;
+   }
+   #searchinput{
+    width: 200px;
+    margin: 10px;
+   }
+   
+   .nav{
+      margin: 10px;
+   }
+
+   #home{
+      background: transparent;
+   }
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+  #mycarousel {
+   margin-top: 85px;
+}
+
+.carousel-caption {
+   font-size: 24px;
+}
+
+.carousel-caption h4 {
+   font-size: 32px;
+}
+
+#mycarousel .item { height: 400px; }
+
+#slide1 {
+   background: url('../../images/mi1_medium.jpg') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../../images/redmi3s_medium.jpg') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../../images/band_medium.jpg') top center no-repeat;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+ .alert {
+   margin-top: 10px;
+   display: none;
+}
+
+.tabbable img.thumbnail {
+   margin: 0 20px 10px 0;
+}
+
+.thumbnails {
+   margin: 20px 0;
+}
+
+.thumbnail {
+   position: relative;
+}
+
+.thumbnail h3 {
+   font-size: 16px;
+   margin: 0 0 10px;
+   line-height: 20px;
+}
+
+.thumbnail .price {
+   font-size: 22px;
+   position: absolute;
+   top: -10px;
+   right: -10px;
+   padding: 10px;
+}
+
+.thumbnail .price sup {
+   font-weight: normal;
+   font-size: 12px;
+}
+
+.thumbnail span.glyphicon {
+   margin-right: 5px;
+}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	.thumbnail .price {
+      font-size: 14px;
+   }
+   
+   .thumbnail .price sup {
+      font-size: 10px;
+   }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	#mycarousel .item { height: 310px; }
+   
+   #slide1 {
+   background: url('../../images/mi1_small.jpg') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../../images/redmi3s_small.jpg') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../../images/band_small.jpg') top center no-repeat;
+}
+   
+   .carousel-caption {
+      font-size: 16px;
+   }
+   
+   .carousel-caption h4 {
+      font-size: 22px;
+   }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	#mycarousel .item { height: 500px; }
+   
+   #slide1 {
+   background: url('../../images/mi1.jpg') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../../images/redmi3s.jpg') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../../images/band.jpg') top center no-repeat;
+}
+}
+
+/*-----------CALLOUT--------------*/
+.adjust_lg{
+   background-color: transparent;
+   border: none;
+   margin: auto;
+   width: 300px;
+}
+
+.adjust_sm{
+   background-color: transparent;
+   border: none;
+   margin: auto;
+   width: 75px;
+}
+
+.adjust_md{
+   background-color: transparent;
+   border: none;
+   margin: auto;
+   width: 150px;
+}
+
+.btn-small{
+   background-color: grey;
+}
+
+.btn-large{
+   background-color: red;
+}

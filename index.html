@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <!-- Website Title & Description for Search Engine purposes -->
+        <title></title>
+        <meta name="description" content="">
+        
+        <!-- Mobile viewport optimized -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        
+        <!-- Bootstrap CSS -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+        
+        <!-- Custom CSS -->
+        <link href="includes/css/styles.css" rel="stylesheet">
+        
+        <!-- Include Modernizr in the head, before any other Javascript -->
+        <script src="includes/js/modernizr-2.6.2.min.js"></script>
+        
+    </head>
+    <body>
+    
+    <div class="container" id="main">
+        <div class="navbar navbar-fixed-top">
+            <div class="container">
+
+                <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="/"><img src="images/milogo.png"></a>
+                <div class="nav-collapse collapse navbar-responsive-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="" id="home">Home</a>
+                        </li>
+                        
+                        <li class="dropdown">    <!--dropdown coloum started-->
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mobiles <strong class="caret"></strong></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Redmi 2</a></li>
+                                <li><a href="#">Redmi 3</a></li>
+                                <li><a href="#">Redmi Note 3</a></li>
+                                <li class="divider"></li>      <!--divider-->
+                                <li class="dropdown-header">Mi Products</li><!--header-->
+                                <li><a href="#">Mi Max</a></li>
+                                <li><a href="#">Mi 5</a></li>
+                                <li><a href="#">Mi Mix</a></li>
+                                 
+                            </ul>
+
+                        </li><!-- end dropdown-->
+                        
+                    </ul><!-- end navbar-nav -->
+
+                    <form class="navbar-form navbar-responsive-collapse pull-left">
+                        <input type="text" class="form-control" placeholder="Search here..." id="searchinput">
+                        <button type="submit" class="btn btn-default">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </form><!--end navbar-form-->
+
+                     <ul class="nav navbar-nav pull-right" >
+                        <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <span class="glyphicon glyphicon-user"></span>
+                            My Account<strong class="caret"></strong>
+                         </a>
+                         <ul class="dropdown-menu">
+                                <li><a href="#">Add account</a></li>
+                                <li><a href="#">Another user</a></li>
+                                
+                                <li class="divider"></li>      <!--divider-->
+                                <li><a href="#myModal" data-toggle="modal">Sign in</a></li>
+                                 
+                            </ul>
+
+                        </li>
+                    </ul>
+                </div> <!-- end nav-collapse -->
+            </div> <!--end container --> 
+        </div> <!-- end navbar -->
+
+<!--########################################### CAROUSEL #########################################################-->
+
+        <div class="carousel slide" id="mycarousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li class="active" data-slide-to="0" data-target="#mycarousel"></li>
+                <li data-slide-to="1" data-target="#mycarousel"></li>
+                <li data-slide-to="2" data-target="#mycarousel"></li>
+            </ol>
+            <!--Wrapper for slide-->
+            <div class="carousel-inner" >
+               <div class="item active col-12" id="slide1">
+  <!--########################################### CALLOUT item1 #################################################-->
+                <div class="row" id="bigCallout">
+                    <div class="col-6">
+
+                    <!-- Visible only on small devices -->
+                    <div class="visible-sm adjust_sm">
+                        <div class="page-header">
+                                <h4>Mi 5</h4>
+                                   <h4>Fast as light<br></h4>
+                            </div><!-- end page-header -->
+                            <h5>&#8377;22,999</h5>
+                            <a href="" class="btn btn-small btn-primary alertMe">Buy Now</a>
+                    </div><!-- end small -->
+
+
+                    <!-- Visible only on medium devices -->
+                    <div class="visible-md adjust_md">
+                        <div class="page-header">
+                                <h3>Mi 5</h3>
+                                   <h3>Fast as light<br></h3>
+                            </div><!-- end page-header -->
+                            <p>Qualcomm Snapdragon 820 Processor <br> 
+                                   3GB RAM+32GB ROM <br>
+                            <h4>&#8377;22,999</h4>
+                            <a href="" class="btn btn-default btn-primary alertMe">Buy Now</a>
+                    </div><!-- end medium -->
+
+
+                    <!-- Visible only on large devices -->
+                       <div class="well visible-lg adjust_lg">
+                            <div class="page-header">
+                                <h1>Mi 5</h1>
+                                   <h1>Fast as light<br></h1>
+                            </div><!-- end page-header -->       
+                                   <p>Qualcomm Snapdragon 820 Processor <br> 
+                                   3GB RAM+32GB ROM <br>
+                                   Professional 4-axis OIS Camera <br>
+                                   
+                                   </p>
+                                   <h2>&#8377; 22,999</h2>
+                            
+                            
+                            <a href="" class="btn btn-large btn-primary alertMe">Buy Now</a>
+                        </div><!-- end well -->
+                    </div><!--end col-6-->
+                </div> <!--callout-->
+  <!--###################################### end CALLOUT item1 ##################################################-->                 
+               </div><!--end item--> 
+
+               <div class="item col-12" id="slide2">
+    <!--########################################### CALLOUT item2 ################################################-->
+                <div class="row" id="bigCallout">
+                    <div class="col-6">
+
+                    <!-- Visible only on small devices -->
+                    <div class="visible-sm adjust_sm">
+                        <div class="page-header">
+                                <h4>Redmi 3S</h4>
+                                   <h4>Power at last<br></h4>
+                            </div><!-- end page-header -->
+                            <h5>&#8377;8,999</h5>
+                            <a href="" class="btn btn-small btn-primary alertMe" >Buy Now</a>
+                    </div><!-- end small -->
+
+
+                    <!-- Visible only on medium devices -->
+                    <div class="visible-md adjust_md">
+                        <div class="page-header">
+                                <h3>Redmi 3S</h3>
+                                   <h3>Power at last<br></h3>
+                            </div><!-- end page-header -->
+                            <p>Redmi 3S Prime <br>
+                                     3GB + 32GB<br></p>
+                            <h4>&#8377;8,999</h4>
+                            <a href="" class="btn btn-default btn-primary alertMe" >Buy Now</a>
+                    </div><!-- end medium -->
+
+
+                    <!-- Visible only on large devices -->
+                       <div class="well visible-lg adjust_lg">
+                            <div class="page-header">
+                                <h1>Redmi 3S</h1>
+                                   <h1>Power at last<br></h1>
+                            </div><!-- end page-header -->       
+                                   <p>Redmi 3S Prime <br>
+                                     3GB + 32GB<br>
+                                     Fingerprint sensor
+                                     </p>
+                                   <h2>&#8377;8,999</h2>
+                            
+                            
+                            <a href="" class="btn btn-large btn-primary alertMe" >Buy Now</a>
+                        </div><!-- end well -->
+                    </div><!--end col-6-->
+                </div> <!--callout-->
+  <!--####################################### end CALLOUT item2 ###############################################-->
+               </div><!--end item--> 
+
+               <div class="item" id="slide3">
+  <!--########################################### CALLOUT item3 #################################################-->
+                <div class="row" id="bigCallout">
+                    <div class="col-6">
+
+                    <!-- Visible only on small devices -->
+                    <div class="visible-sm adjust_sm">
+                        <div class="page-header">
+                                <h4>Mi Band 2</h4>
+                                   <h4>Time to step up<br></h4>
+                            </div><!-- end page-header -->
+                            <h5>&#8377;1999</h5>
+                            <a href="" class="btn btn-small btn-primary alertMe" >Buy Now</a>
+                    </div><!-- end small -->
+
+
+                    <!-- Visible only on medium devices -->
+                    <div class="visible-md adjust_md">
+                        <div class="page-header">
+                                <h3>Mi Band 2</h3>
+                                   <h3>Time to step up<br></h3>
+                            </div><!-- end page-header -->
+                            <p>OLED time display, 20-day battery <br> 
+                                   Fitness and heart rate tracker <br>
+                            <h4>&#8377;1999</h4>
+                            <a href="" class="btn btn-default btn-primary alertMe">Buy Now</a>
+                    </div><!-- end medium -->
+
+
+                    <!-- Visible only on large devices -->
+                       <div class="well visible-lg adjust_lg">
+                            <div class="page-header">
+                                <h1>Mi Band 2</h1>
+                                   <h1>Time to step up<br></h1>
+                            </div><!-- end page-header -->       
+                                   <p>OLED time display, 20-day battery <br> 
+                                   Fitness and heart rate tracker<br>
+                                   Mi Fit app statistics (Android and iOS) <br>
+                                   
+                                   </p>
+                                   <h2>&#8377;1999</h2>
+                            
+                            
+                            <a href="" class="btn btn-large btn-primary" id="alertMe" >Buy Now</a>
+                        </div><!-- end well -->
+                    </div><!--end col-6-->
+                </div> <!--callout-->
+  <!--######################################## end CALLOUT item3 #################################################-->
+               </div><!--end item--> 
+
+            </div><!--end carousel-inner-->
+
+            <!--Arrow control-->
+            <a class="left carousel-control" data-slide="prev" href="#mycarousel"><span class="icon-prev"></span></a>
+            <a class="right carousel-control" data-slide="next" href="#mycarousel"><span class="icon-next"></span></a>
+        </div><!-- end mycarousel-->
+    
+
+<!--########################################### CAROUSEL END #####################################################-->
+
+<!--##############################################################################################################-->
+        <div class="alert alert-success alert-block fade in" id="successAlert">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            
+            <h4>Congratulation!</h4>
+            <p>Your order is placed</p>
+        </div><!-- end alert -->
+      
+<!--########################################### Features #####################################################-->
+
+      <div class="row" id="featuresHeading">
+    <div class="col-12">
+        <h2>More Items</h2>
+        <p class="lead">Have you explored our next Redmi device with Mi explorers yet? Explore now</p>
+    </div><!-- end col-12 -->
+</div><!-- end featuresHeading -->
+
+
+<div class="row" id="features">
+    <div class="col-sm-4 feature">
+        <div class="panel">
+            <div class="panel-heading">
+                <h3 class="panel-title">Air Purifier</h3>
+            </div><!-- end panel-heading -->
+            <img src="images/purifier.jpg" alt="Air Purifier" class="img-circle">
+            
+            <p>We know eating clean is better for the body, and the same applies to the air we breathe. Mi Air
+Purifier 2 is simple, elegant and has a new compact design that is 40% smaller than the first Mi 
+Air Purifier.</p>
+            
+            <a href="#" target="_blank" class="btn btn-warning btn-block">Buy</a>
+        </div><!-- end panel -->
+    </div><!-- end feature -->
+    
+    <div class="col-sm-4 feature">
+        <div class="panel">
+            <div class="panel-heading">
+                <h3 class="panel-title">Headphones pro</h3>
+            </div><!-- end panel-heading -->
+            <img src="images/headphonespro.jpg" alt="headphonespro" class="img-circle">
+            
+            <p>Emotive detail in-between layers of a song are often lost when you use headphones with either a dynamic or balanced armature driver. In attempt to create a more precise listening experience.</p>
+            
+            <a href="#" target="_blank" class="btn btn-danger btn-block">Buy</a>
+        </div><!-- end panel -->
+    </div><!-- end feature -->
+    
+    <div class="col-sm-4 feature">
+        <div class="panel">
+            <div class="panel-heading">
+                <h3 class="panel-title">Case cover Discount</h3>
+            </div><!-- end panel-heading -->
+            <img src="images/casediscount.jpg" alt="Discount" class="img-circle">
+            
+            <p>Emotive detail in-between layers of a song are often lost when you use headphones with either a dynamic or balanced armature driver. In attempt to create a more precise listening experience.</p>
+            
+            <a href="#" target="_blank" class="btn btn-info btn-block">Get It</a>
+        </div><!-- end panel -->
+    </div><!-- end feature -->
+</div><!-- end features -->
+
+<!--########################################### Feature END #####################################################-->
+<div class="row col-12" id="moreinfo">
+<div class="col-sm-6">
+<div class="tabbable">
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#tab1" data-toggle="tab">Service Centers</a></li>
+        <li><a href="#tab2" data-toggle="tab">Devices</a></li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane active" id="tab1">
+            <h4><span class="glyphicon glyphicon-map-marker"></span> Our Service centers <small>Almost all-around the world check it out</small></h4>
+            
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.5559168706786!2d77.56728545052901!3d13.00023099079217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae162fbb205a5f%3A0xcf050a9544ac1d2e!2sMi+Xiaomi+Service+Center+Bangalore%2C!5e0!3m2!1sen!2sin!4v1484287646167" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <br>
+            <br>
+            
+            <p>"Just for fans" – that's our belief. Our hardcore Mi fans lead every step of the way. In fact, many
+                Xiaomi employees were first Mi fans before joining the team. As a team, we share the same relentless 
+                pursuit of perfection, constantly refining and enhancing our products to create the best user experience 
+                possible. We are also fearless in testing new ideas and pushing our own boundaries. Our dedication 
+                and belief in innovation, together with the support of Mi fans, are the driving forces behind our 
+                unique Mi products.</p>
+            
+        </div><!-- end tab-pane -->
+        
+        <div class="tab-pane" id="tab2">
+            <h4>New Devices</h4>
+                    
+                    <div class="list-group ">
+                        <a href="#" class="list-group-item">
+                            <img class="col-sm-4 imagesize" src="images/earphonepro.jpg">
+                            <h4 class="list-group-item-heading">Headphone Pro</h4>
+                            <p class="list-group-item-text">A good set of headphones bridges composers and their listeners. To produce an exceptional acoustic tuning, we used various scientific tuning and calibration methods such as the Klippel high-speed scanning vibrometer system. The Klippel system simulates recordings with a dummy head to identify the most ideal acoustics.</p>
+                        </a>
+                        <a href="#" class="list-group-item ">
+                        <img class="col-sm-4 imagesize" src="images/mispeaker.jpg">
+                            <h4 class="list-group-item-heading">MI Bluetooth Speaker</h4>
+                            <p class="list-group-item-text ">Created for audiophiles, Mi Bluetooth Speaker provides outstanding sound quality and supports multiple music playback modes. Compatible with smartphones, tablets, TVs, laptops and more. Stylishly designed and packed with power, it’s the perfect way to indulge in music wherever you go.</p>
+                        </a>
+
+                        <a href="#" class="list-group-item">
+                        <img class=" col-sm-4 imagesize" src="images/powerbank.jpg">
+                           
+                            <h4 class="list-group-item-heading">Mi Power Bank</h4>
+                            <p class="list-group-item-text">Mi Power Bank automatically adjusts its output level based on the connected device. It is compatible with smartphones and tablets from Mi, Apple, Samsung, HTC, Google, and BlackBerry, as well as a variety of digital cameras and handheld gaming devices.</p>
+                        </a>
+                    </div><!-- list-group -->
+                </div><!-- end col-sm-6 -->
+    </div><!-- end tab-content -->
+</div><!-- end tabbable -->
+</div><!--end col-sm-6-->
+
+<div class="col-sm-6" id="imageAdjust">
+    <img src="images/mi4.jpg">
+</div>
+</div><!--end moreinfo-->
+<!--########################################### Tabable END #####################################################-->
+
+<div class="row" id="moreCourses">
+    <div class="col-12">
+        <h3>Upcomming Devices</h3>
+        <div class="thumbnails row">
+            <div class="col-6">
+                <div class="thumbnail">
+                    <img src="images/stick.jpg" alt="Mi Selfie Stick">
+                    
+                    <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>&#8377;</sup>699</div>
+                    
+                    <div class="caption">
+                        <h3>Mi Selfie Stick</h3>
+                        
+                        <p>Lightweight and portable, weighs only 132g
+                            Sandblasted aluminium rod, 6 extension sections
+                            No bluetooth pairing required
+                            Just plug in and start using.Foldable and compact design.Hides wires and fits easily in your handbags.Use standard 3.5mm jeck no bluetooth pairing required. </p>
+                        
+                        <p><a href="" class="btn btn-primary btn-danger" target="_blank">Take a Look</a> </p>
+                    </div><!-- end caption -->
+                </div><!-- end thumbnail -->
+            </div><!-- end col-6 -->
+            
+            <div class="col-6">
+                <div class="thumbnail">
+                    <img src="images/vr1.jpg" alt="Web Hosting 101">
+                    
+                    <div class="label label-info price"><span class="glyphicon glyphicon-tag">&#8377;</span>999</div>
+                    
+                    <div class="caption">
+                        <h3>Mi VR</h3>
+                        
+                        <p>Virtually anything is possible<br>
+                            Works with Google Cardboard | Immersive experience
+                            Two-way zip | Lightweight Lycra |
+                            Mi VR Play follows Google's recommendation that cardboard device
+                            designs do not include a head strap.</p>
+                        
+                        <p><a href="" class="btn btn-primary btn-success" target="_blank">Watch</a></p>
+                    </div><!-- end caption -->
+                </div><!-- end thumbnail -->
+            </div><!-- end col-6 -->
+        </div><!-- end row -->
+    </div><!-- end col-12 -->
+</div><!-- end moreCourses -->
+<!--########################################### Tabable END #####################################################-->
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                
+                
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label" for="inputName">User Name</label>
+                        <div class="col-lg-10">
+                            <input class="form-control" id="inputName" placeholder="Name" type="text">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+                        <div class="col-lg-10">
+                            <input class="form-control" id="inputEmail" placeholder="Email" type="email">
+                        </div>
+                    </div>
+                </form>
+            </div><!-- end modal-body -->
+            
+            <div class="modal-footer">
+                 <button class="btn btn-primary" type="button">sign in</button>
+            </div><!-- end modal-footer -->
+        </div><!-- end modal-content -->
+    </div><!-- end modal-dialog -->
+</div><!-- end myModal -->
+
+<!--########################################### modal END #####################################################-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <!-- Visible only on small devices -->
+                    <div class="visible-sm">
+                        <div class="col-sm-2">
+            <h6>Copyright &copy; 2017 {Prakul}</h6>
+            </div><!-- end col-sm-2 -->
+            
+            <div class="col-sm-4">
+                <h6>About Us</h6>
+            </div><!-- end col-sm-4 -->
+            
+            <div class="col-sm-2">
+                <h6>Navigation</h6>
+                
+            </div><!-- end col-sm-2 -->
+            
+            <div class="col-sm-2">
+                <h6>Follow Us</h6>
+            </div><!-- end col-sm-2 -->
+            
+            <div class="col-sm-2">
+                <h6>Coded with <span class="glyphicon glyphicon-heart"></span></h6>
+            </div><!-- end col-sm-2 -->
+            </div><!-- end small -->
+        
+        <!-- Visible only on medium devices -->
+                    <div class="visible-md">
+                        <div class="col-sm-2">
+            <h6>Copyright &copy; 2017 {Prakul}</h6>
+            </div><!-- end col-sm-2 -->
+            
+            <div class="col-sm-4">
+                <h6>About Us</h6>
+            </div><!-- end col-sm-4 -->
+            
+            <div class="col-sm-2">
+                <h6>Navigation</h6>
+                
+            </div><!-- end col-sm-2 -->
+            
+            <div class="col-sm-2">
+                <h6>Follow Us</h6>
+            </div><!-- end col-sm-2 -->
+            
+            <div class="col-sm-2">
+                <h6>Coded with <span class="glyphicon glyphicon-heart"></span></h6>
+            </div><!-- end col-sm-2 -->
+            </div><!-- end medium -->
+
+<!-- Visible only on large devices -->
+        <div class="visible-lg">
+            <div class="col-sm-2">
+            <h6>Copyright &copy; 2017 {Prakul}</h6>
+            </div><!-- end col-sm-2 -->
+            
+            <div class="col-sm-4">
+                <h6>About Us</h6>
+                <p>Xiaomi was founded in 2010 by serial entrepreneur Lei Jun, who believes that high-quality
+technology doesn't need to cost a fortune. We create remarkable hardware, software, and internet
+services for and with the help of our Mi fans. We incorporate their feedback into our product range,
+which currently includes the Mi Note Pro, Mi Note, Mi 4, Redmi 2, Mi TV, Mi Band and other accesso-
+ries.  </p>
+            </div><!-- end col-sm-4 -->
+            
+            <div class="col-sm-2">
+                <h6>Navigation</h6>
+                <ul class="unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Links</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div><!-- end col-sm-2 -->
+            
+            <div class="col-sm-2">
+                <h6>Follow Us</h6>
+                <ul class="unstyled">
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Google Plus</a></li>
+                </ul>
+            </div><!-- end col-sm-2 -->
+            
+            <div class="col-sm-2">
+                <h6>Coded with <span class="glyphicon glyphicon-heart"></span></h6>
+            </div><!-- end col-sm-2 -->
+            </div>
+        </div><!-- end row -->
+    </div><!-- end container -->
+</footer>
+</div> <!--end container -->
+    <!-- All Javascript at the bottom of the page for faster page loading -->
+        
+    <!-- First try for the online version of jQuery-->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    
+    <!-- If no online access, fallback to our hardcoded version of jQuery -->
+    <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+    
+    <!-- Bootstrap JS -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="includes/js/script.js"></script>
+    
+    </body>
+</html>
+
